@@ -7,7 +7,7 @@ import voices from "./parameters/voices.json" assert { type: "json" };
 
 const kernel = new Kernel("OpenAI Realtime API");
 
-kernel.setDockerHubRepository("talkops/talkops-kernel-openai-realtime-api");
+kernel.setDockerRepository("talkops/talkops-kernel-openai-realtime-api");
 
 kernel.setEnvironmentVariables({
   API_KEY: {
