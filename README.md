@@ -3,6 +3,7 @@
 
 A TalkOps Kernel made to work with [TalkOps](https://link.talkops.app/talkops).
 
+This Kernel based on [OpenAI Realtime API](https://openai.com/index/introducing-the-realtime-api/) defines and configures the Agent&#39;s artificial intelligence. It acts as the processing engine for real-time interactions, ensuring the analysis and understanding of user requests in real-time.
 
 ## Installation Guide
 

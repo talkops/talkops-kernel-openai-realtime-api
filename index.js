@@ -9,6 +9,10 @@ const kernel = new Kernel("OpenAI Realtime API");
 
 kernel.setDockerRepository("talkops/talkops-kernel-openai-realtime-api");
 
+kernel.setDescription(
+  "This Kernel based on [OpenAI Realtime API](https://openai.com/index/introducing-the-realtime-api/) defines and configures the Agent's artificial intelligence. It acts as the processing engine for real-time interactions, ensuring the analysis and understanding of user requests in real-time."
+);
+
 kernel.setEnvironmentVariables({
   API_KEY: {
     description:
