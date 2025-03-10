@@ -25,6 +25,8 @@ services:
     environment:
       API_KEY: [your-value]
     restart: unless-stopped
+
+
 ```
 
 ## Environment Variables
